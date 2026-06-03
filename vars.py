@@ -8,13 +8,13 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 CREDIT = os.environ.get("CREDIT", "𝐒нɑᎥ𝚝ɑη")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "DevThanos")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://ajmerasaini01:U1sGiZRI6Ha0xuCy@cluster0.tnok3d0.mongodb.net/")  # Add your own atlas db
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Legislative")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb://atlas-sql-6a1f801b23bb117d5a31821c-bha6cv.a.query.mongodb.net/")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "7547625729"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "7547625729").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8347320188"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "8347320188").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = ""
