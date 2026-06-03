@@ -9,7 +9,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 CREDIT = os.environ.get("CREDIT", "𝐒нɑᎥ𝚝ɑη")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Legislative")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb://atlas-sql-6a1f801b23bb117d5a31821c-bha6cv.a.query.mongodb.net/")  # Add your own atlas db
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb://atlas-sql-6a1f801b23bb117d5a31821c-bha6cv.a.query.mongodb.net/Legislative?ssl=true&authSource=admin")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
